@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+}
+/*---------------Parte superior---------------------------*/
+.superiorderecha{
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+    margin-right: 15px;
+    align-items: center;
+}
+.sup{
+    margin-right: 25px;
+    align-items: center;
+    margin-right: 20px;
+}
+.sup:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.grid{
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    }
+.inicio .grid:hover{
+        border-radius: 50%;
+        background-color:#f1f1f1;
+        cursor: pointer;
+    }
+.perfil1{
+    height: 50px;
+    width: 45px;
+    border-radius: 50px;
+    display: flex;
+    padding: 5px;
+}
+.inicio .perfil1:hover{
+    border-radius: 50%;
+    background-color:#f1f1f1;
+    cursor:pointer;
+}
+
+/*-------------Centro-----------------------------*/
+
+.logogoogle{
+     display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.icono{
+    display: grid;
+    place-content: center;
+}
+.setion{
+    display: flex;
+    border: 1px solid rgb(204, 200, 200);
+    width: 600px;
+    height: 40px;
+    border-radius: 30px;
+   justify-content: center; 
+    align-items: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+.icono .setion:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.icon{
+    margin-right: 10px;
+}
+.texto input{
+    width: 500px;
+    border: 0;
+    outline: 0;
+}
+.mic:hover{
+    cursor: pointer;
+}
+.camara:hover{
+    cursor: pointer;
+}
+.suerte{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+.suerte p{
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.suerte p:hover{
+    border: 1px solid rgb(218, 211, 211);
+    border-radius: 5px;
+}
+.suerte a{
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.suerte a:hover{
+    border: 1px solid rgb(218, 211, 211);
+    border-radius: 5px;
+}
+.google{
+    margin-right: 20px;
+}
+.ofrecido{
+    display: flex;
+    justify-content: center; 
+    padding: 10px;
+    color: #70757a;
+    & span{
+        color: blue;
+    } 
+}
+.ofrecido span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*------------------Inferior------------------------*/
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #F2F2F2;
+    height: 100px;
+}
+.pais{
+    padding: 15px 30px;
+    border-bottom: thin solid #c6c6c6;
+    color: #70757a;
+}
+.navabajo{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 0px 20px;
+    height: 60px;
+} 
+.navabajo .izquierda,
+.navabajo .derecha{
+    display:flex;
+    justify-content:space-between;
+    gap: 30px;
+} 
+.navabajo .izquierda a,
+.navabajo .derecha a{
+    color:#70757a;
+}
+.navabajo .izquierda a:hover,
+.navabajo .derecha a:hover{
+    text-decoration:underline;
+}
